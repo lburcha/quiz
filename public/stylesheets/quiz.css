@@ -1,0 +1,23 @@
+#wrapper{
+    height: 300px;
+    width: 1100px;
+}
+
+.question{
+    float: left;
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    display: none;
+}
+
+.inFocus{
+    background-color: red;
+    display: block;
+}
+
+.question:after{
+}
+
+.question.selected:after{
+}
